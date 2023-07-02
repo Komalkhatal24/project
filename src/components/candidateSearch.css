@@ -1,0 +1,105 @@
+.candidate-search{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.candidate-main .header{
+    width: 100%;
+    display: flex !important;
+    justify-content: center;
+    padding-top: 10px;
+    display: flex;
+    font-size: 36px;
+}
+
+.color-primary{
+    display: flex;
+    color: #867AE9;
+}
+
+.searchbar{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0 20px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+}
+
+.searchbar input{
+    width: 300px;
+    height: 36px;
+    border: 1px solid #e5e5e5;
+    outline: none;
+    padding-left: 20px;
+    font-size: 16px;
+}
+.searchbar input::placeholder{
+    color: #e5e5e5;
+}
+
+.searchbar button{
+    width: 100px;
+    height: 36px;
+    border: none;
+    outline: none;
+    background-color: #867AE9;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#location,#job-role{
+    background-color: #fff;
+    height: 36px;
+    border: 1px solid #e5e5e5;
+    outline: none;
+    padding: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.candidate-list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.candidate-list table{
+    width: 100%;
+    border-collapse: collapse;
+    justify-content: center;
+    /* box-shadow: 0 0 5px 0 rgba(0,0,0,0.1); */
+    padding: 10px;
+}
+
+table thead{
+    padding: 5px 10px;
+    background-color: #FFF5AB;
+    color: #252525;
+    border-radius: 4px;
+}
+
+table th,td{
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.download-btn {
+    width: 100px;
+    background-color: #867AE9;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
