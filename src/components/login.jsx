@@ -18,9 +18,9 @@ function Login()
             <div className="right-login">
                <form>
             <h1>Login Here</h1>
-            <input type='email'placeholder=' Email Address'></input>
+            <input type='email'placeholder='Email Address'></input>
             <input
-             type='password'placeholder=' Re-type Password'></input>
+             type='password'placeholder='Password'></input>
              <div className='login'>
                <button>Login</button>
              </div>
