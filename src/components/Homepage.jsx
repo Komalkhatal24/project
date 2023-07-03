@@ -32,8 +32,8 @@ function Homepage() {
         <hr/>
         <div className='main-content'>
             <div className='left-content'>
-                <h1>Are You <span className='voilet'>tired</span> of traditional <br/><span className='voilet'>recruitment</span> methods</h1>
-                <p>say goodbye to endless paperwork,manual screening and time-consuming <br/>interviews .our online recruitment solution revoultionizes the way you hire, <br/>making it faster ,more efficient and hassle-free</p>
+                <h1>Are You <span className='voilet'>tired</span> of traditional <span className='voilet'>recruitment</span> methods</h1>
+                <p>say goodbye to endless paperwork,manual screening and time-consuming interviews .our online recruitment solution revoultionizes the way you hire, making it faster ,more efficient and hassle-free</p>
             </div>
             <div className='right-content'>
             <img src={image} alt="image can't be loaded"/>
@@ -52,21 +52,21 @@ function Homepage() {
               <img className='images' src={ATS} alt="image can't be loaded"/>
               <br/>
               <p> Streamline Your Hiring 
-              <br/> Process With Our Cutting-edge ATS
+               Process With Our Cutting-edge ATS
               </p>
               </div>
               <div className='img-co'>
               <img className='images' src={SaveTime} alt="image can't be loaded"/>
               <br/>
               <p> Save time and effort by leveraging our 
-              <br/> intelligent job matching technology
+               intelligent job matching technology
               </p>
               </div>
               <div className='img-co'>
               <img className='images' src={collab} alt="image can't be loaded"/>
               <br/>
               <p> Simplify Collaboration Between Hiring
-              <br/> managers and HR professional
+               managers and HR professional
               </p>
               </div>
 
@@ -74,8 +74,7 @@ function Homepage() {
               <img className='images' src={candidate} alt="image can't be loaded"/>
               <br/>
               <p> Effortlessly Schudable Interviews With 
-              <br/> Candidate through Our integrated 
-              <br/>
+            Candidate through Our integrated 
               System
               </p>
               </div>
