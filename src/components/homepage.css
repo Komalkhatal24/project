@@ -47,10 +47,16 @@ img{
   align-items: center;
   margin-left: 80px;
   padding: 50px;
+  text-align: center;
+
 }
 p{
   color:#6A6A6A;
 
+}
+
+.left-content p{
+  font-size: 14px;
 }
 .title{
   display: flex;
@@ -86,8 +92,16 @@ p{
   
 }
 
+.img-co img{
+  width: auto;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
 .img-co p{
   text-align: center;
+  line-height: 24px;
+  font-size: 14px;
 }
 
 .img-co:last-child{
