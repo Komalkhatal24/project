@@ -1,5 +1,5 @@
-import './register.css'
-import img from './images/RegisterAvatar 1.png';
+import './Register.css'
+// import img from './images/RegisterAvatar 1.png';
 
 import { Link } from 'react-router-dom';
 
@@ -9,7 +9,7 @@ function Register()
 return(
     <>
      <div className="main-div">
-     <h1 className='heading'>Welcome To <span> StudyMonk</span></h1>
+     <h1 className='heading'>Welcome To <span> CampusXchange</span></h1>
         <div className="sub-div">
           <div className='left-div'>
             <h1 className='header'>Register</h1>
@@ -36,7 +36,7 @@ return(
 
           </div>
           <div className='right-div'>
-            <img src={img} alt="" />
+            {/* <img src={img} alt="" /> */}
           </div>
         </div>
      </div>

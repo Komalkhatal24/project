@@ -1,89 +1,55 @@
 import React from 'react';
 import './homepage.css';
-import image from './images/image.png';
-import ATS from './images/ATS.png';
-import SaveTime from './images/SaveTime.png';
-import collab from './images/collab.png';
-import candidate from './images/candidate.png';
+// import logo from './images/logo.png'
 import { Link } from 'react-router-dom';
-import Footer from './Footer';
-
+import image from './images/image.png'
 
 function Homepage() {
   return (
     <div>
-        <nav className='navbar'>
-           <div className='left-nav'>
-            <h1 className='heading'>StudyMonk</h1>
-           </div>
-           <div className='right-nav'>
-        <ul>
-            <li>Home</li>
-            <li>About us</li>
-            <Link to="/login">
-            <li>Login</li>
-            </Link>
-            <Link to="/register">
-            <li>Signup</li>
-            </Link>
-        </ul>
-           </div>
-        </nav>
-        <hr/>
-        <div className='main-content'>
-            <div className='left-content'>
-                <h1>Are You <span className='voilet'>tired</span> of traditional <span className='voilet'>recruitment</span> methods</h1>
-                <p>say goodbye to endless paperwork,manual screening and time-consuming interviews .our online recruitment solution revoultionizes the way you hire, making it faster ,more efficient and hassle-free</p>
-            </div>
-            <div className='right-content'>
-            <img src={image} alt="image can't be loaded"/>
-                
-            </div>
+      <nav className='navbar'>
+        <div className='left-nav'>
+          <h1 className='heading'>
+           CampusXchange
+           {/* <marquee>Let's connect Together...</marquee> */}
+          </h1>
+          {/* <div classname='all'>
+          <marquee>Let's connect Together...</marquee>
+          </div> */}
         </div>
-        <div className='down'>
-          <div className='title'>
-            <h1 className='heading'>
-              Benifits
-            </h1>
-          </div>
-          <div className='down-content'>
-            <div className='img-content'>
-            <div className='img-co'>
-              <img className='images' src={ATS} alt="image can't be loaded"/>
-              <br/>
-              <p> Streamline Your Hiring 
-               Process With Our Cutting-edge ATS
-              </p>
-              </div>
-              <div className='img-co'>
-              <img className='images' src={SaveTime} alt="image can't be loaded"/>
-              <br/>
-              <p> Save time and effort by leveraging our 
-               intelligent job matching technology
-              </p>
-              </div>
-              <div className='img-co'>
-              <img className='images' src={collab} alt="image can't be loaded"/>
-              <br/>
-              <p> Simplify Collaboration Between Hiring
-               managers and HR professional
-              </p>
-              </div>
+        <div className='right-nav'>
+          <ul>
+            
 
-              <div className='img-co'>
-              <img className='images' src={candidate} alt="image can't be loaded"/>
-              <br/>
-              <p> Effortlessly Schudable Interviews With 
-            Candidate through Our integrated 
-              System
-              </p>
-              </div>
-              </div>
-          </div>
+            <Link to="/LoginPage">
+              <li>Login</li>
+            </Link>
+            <Link to="/register"> 
+              <li>Signup</li>
+             </Link>
+          </ul>
         </div>
-        <Footer/>
-    </div>
+      </nav>
+      <hr />
+      <div classname='all'>
+          <marquee>Let's connect Together...</marquee>
+          </div>
+      <div className='main-content'>
+        <div className='left-content'>
+          <h1>"CampusXchange "<span className='voilet'> innovative networking platform </span> </h1>
+          <p> This platform provides a dynamic space for students to create and maintain comprehensive profiles, interact with their peers, and share a wide range of content, including posts, achievements, interview experiences, blogs, and more. </p>
+        </div>
+        <div className='right-content'>
+          <img src={image} alt="image can't be loaded" />
+
+        </div>
+      </div>
+   
+
+      </div>
+
+
+
   )
 }
-
 export default Homepage

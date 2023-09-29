@@ -1,28 +1,28 @@
-import Register from "./components/Register";
+
 import React from 'react';
-import {  Routes, Route } from "react-router-dom";
-import Login from "./components/login";
+import { Routes, Route } from "react-router-dom";
 import Homepage from "./components/Homepage";
-import CandidateSearch from "./components/CandidateSearch";
+import LoginPage from "./components/LoginPage";
+import Register from "./components/Register";
 
 
 
-function App()
-{
-  
+function App() {
+
     return (
         <>
-        <Routes>
-        <Route path="/" element={<Homepage/>}/>
-            <Route path="/register" element={<Register/>}/>
-            <Route path="/login" element={<Login/>}/>
-         <Route path="/" element={<Homepage/>}/>
-         <Route path="/CandidateSearch" element={<CandidateSearch/>}/>
-           
-        </Routes>
-      
+           <Routes>
+
+        <Route  path="/" element={<Homepage/>} />
+        <Route path="/LoginPage" element={<LoginPage/>} />
+        <Route path="/register" element={<Register/>}/>
    
+    </Routes>
+
             
+
+
+
         </>
     )
 
@@ -30,5 +30,5 @@ function App()
 
 };
 export default App;
-  
+
 

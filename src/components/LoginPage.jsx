@@ -1,16 +1,16 @@
 import { Link } from 'react-router-dom';
 import React from 'react';
-import './login.css';
+import './loginpage.css';
 import img from './images/LoginAvatar 1.png';
 
-function Login()
+function Loginpage()
 {
 
    return(
 
     <>
        <div className="main-div">
-         <h1 className='heading'>Welcome back to <span className='color-primary'> StudyMonk</span></h1>
+         <h1 className='heading'>Welcome back to <span className='color-primary'> CampusXchange</span></h1>
          <div className="sub-div">
             <div className="left-login">
                <img src={img} alt="graphic" />
@@ -40,4 +40,4 @@ function Login()
 
 
 };
-export default Login;
+export default Loginpage;
